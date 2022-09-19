@@ -1,0 +1,61 @@
+import java.util.Scanner;
+class MyProgram
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("What is your name? ");
+        String name = input.nextLine();
+        System.out.println("What is the month in numbers? ");
+        int month = input.nextInt();
+        System.out.println("What is the day of the month in numbers? ");
+        int day = input.nextInt();
+        System.out.println("Please start inserting the following types of words that are listed below.");
+        String test = input.nextLine();
+        System.out.println("Adjective");
+        String one = input.nextLine(); 
+        System.out.println("Room");
+        String two  = input.nextLine(); 
+        System.out.println("Plural Noun");
+        String three  = input.nextLine(); 
+        System.out.println("Plural Noun");
+        String four = input.nextLine(); 
+        System.out.println("Noun");
+        String five = input.nextLine(); 
+        System.out.println("Noun");
+        String six = input.nextLine(); 
+        System.out.println("Noun");
+        String seven = input.nextLine(); 
+        System.out.println("Adjective");
+        String eight = input.nextLine(); 
+        System.out.println("Noun");
+        String nine = input.nextLine(); 
+        System.out.println("Number");
+        String ten = input.nextLine(); 
+        System.out.println("Plural Noun");
+        String eleven = input.nextLine();
+        System.out.println("Noun");
+        String twelve = input.nextLine(); 
+        System.out.println("Color");
+        String thirteen = input.nextLine(); 
+        System.out.println("Another Color");
+        String fourteen = input.nextLine(); 
+        System.out.println("Something Alive");
+        String fifteen = input.nextLine(); 
+        System.out.println("Person in Room");
+        String sixteen = input.nextLine(); 
+        System.out.println("Another Person in the room");
+        String seventeen = input.nextLine(); 
+   
+        System.out.println("\n");
+        System.out.println(name + " " + month + "/" + day);
+        System.out.println("\n");
+        System.out.println("No Christmas season can really be complete unless you have a " + one + " tree in your " + two + ".");
+        System.out.println("If you live in a city, you will see many vacant " + three + " filled with hundres of " + four + " for sale. ");
+        System.out.println("If you live in the country, you can get your own " + five + " right out of the forest. ");
+        System.out.println("Go out with a " + six + " and " + seven + ", and when you see a " + eight + " tree you like, you can dig it up and plant it in a " + nine);
+        System.out.println("Then you can use it for " + ten + " years.");
+        System.out.println("To make sure your tree is fresh, shake the branches and see if the " + eleven + " fall off onto the " + twelve + ".");
+        System.out.println("And make sure the tree is very " + thirteen + ". Nothing looks worse than a " + fourteen + " tree.");
+        System.out.println("Just follow these directions and you cn have a perfectly beutiful " + fifteen + " in your front room for weeks.");
+        System.out.print("Rembmer, poems are and Mad Libs are made by fools like " + sixteen + ", but only " + seventeen + " can make a tree.");
